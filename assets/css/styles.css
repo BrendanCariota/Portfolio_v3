@@ -140,7 +140,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #000;
+  background-color: #131313;
 }
 
 /*===== NAV =====*/
@@ -159,7 +159,7 @@ img {
     width: 100%;
     padding-top: 1.5rem;
     text-align: center;
-    background-color: #000;
+    background-color: rgb(43, 43, 43);
     transition: 0.4s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 1rem 1rem;
@@ -721,7 +721,7 @@ img {
 
 @media screen and (min-width: 576px) {
   .home__img img {
-    width: 330px;
+    width: 550px;
   }
 
   .about__container,
@@ -796,7 +796,7 @@ img {
   }
 
   .home__img img {
-    width: 440px;
+    width: 550px;
   }
 
   .about__description {
