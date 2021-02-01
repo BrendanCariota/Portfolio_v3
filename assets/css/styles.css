@@ -413,6 +413,23 @@ img {
   border-bottom: 1px solid #ccc;
 }
 
+#box__reversed {
+  background-color: var(--first-color-dark);
+  border-radius: 1rem;
+}
+#box__reversed h3 {
+  color: var(--first-color-lighten);
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#box__reversed span {
+  color: var(--first-color-light);
+  padding-left: 10px;
+}
+#qualification__reversed__box {
+  border-bottom: none;
+}
+
 .qualification__area {
   font-size: var(--normal-font-size);
   color: var(--first-color);
@@ -589,11 +606,13 @@ img {
 }
 
 .contact__box {
+  max-width: 500px;
   background-color: #fff;
   border-radius: 0.5rem;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+  justify-content: center;
 }
 
 .contact__icon,
@@ -868,5 +887,17 @@ img {
 
   .home__img img {
     width: 800px;
+  }
+
+  .contact__content {
+    justify-items: center;
+  }
+
+  .contact__box {
+    width: 300px;
+    justify-self: flex-end;
+  }
+  .chat__box {
+    justify-self: flex-start;
   }
 }
