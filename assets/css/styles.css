@@ -588,6 +588,7 @@ img {
 }
 .overlay__desc {
   padding: 10px 20px;
+  width: 70%;
 }
 .paragraph__spacing {
   margin: 5px 20px;
@@ -936,5 +937,9 @@ img {
   }
   .chat__box {
     justify-self: flex-start;
+  }
+
+  .portfolio__container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
