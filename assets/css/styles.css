@@ -4,8 +4,10 @@
   --header-height: 3rem;
 
   /*===== Colors =====*/
-  --first-color: #3e0e12;
-  --first-color-dark: #2f0a0d;
+  --first-color: #2d2c69;
+  --first-color-dark: #252549;
+  /* --first-color: #3e0e12;
+  --first-color-dark: #2f0a0d; */
   --text-color: #524748;
   --first-color-light: #7b6f71;
   --first-color-lighten: #fbf9f9;
